@@ -40,5 +40,5 @@ fbProphet is a procedure for forecasting time series data based on an additive m
 
 ## Data
 Some basic TSA datasets to apply this repo:
-* [LINK](https://github.com/jonykoren/Time_Series_Analysis/tree/master/data)
+* [Datasets](https://github.com/jonykoren/Time_Series_Analysis/tree/master/data)
 
