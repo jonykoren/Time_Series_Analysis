@@ -43,5 +43,5 @@ Some basic TSA datasets to apply this repo:
 * [Datasets](https://github.com/jonykoren/Time_Series_Analysis/tree/master/data)
 
 ## Author
-`Maintainer` [Jonatan Koren](https://jonykoren.github.io/) (jonykoren@gmail.com)
+`Maintainer` [Jonatan Koren](https://jonykoren.github.io/)
 
