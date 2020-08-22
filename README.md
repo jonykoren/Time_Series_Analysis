@@ -17,6 +17,9 @@ If the errors of a random walk model are autocorrelated, perhaps the problem can
 * ARIMA(0,1,1) without constant = simple exponential smoothing:
 Another strategy for correcting autocorrelated errors in a random walk model is suggested by the simple exponential smoothing model. Recall that for some nonstationary time series (e.g., ones that exhibit noisy fluctuations around a slowly-varying mean), the random walk model does not perform as well as a moving average of past values. In other words, rather than taking the most recent observation as the forecast of the next observation, it is better to use an average of the last few observations in order to filter out the noise and more accurately estimate the local mean. The simple exponential smoothing model uses an exponentially weighted moving average of past values to achieve this effect.
 
+# Notebooks
+* [Single Feature Example](https://github.com/jonykoren/Time_Series_Analysis/blob/master/Minimum_Daily_Temperatures.ipynb)
+* [Mutltiple Features Example](https://github.com/jonykoren/Time_Series_Analysis/blob/master/Superstore.ipynb)
 
 ### Data
 Some basic TSA datasets to analyze:
