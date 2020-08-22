@@ -16,14 +16,13 @@ ARIMA models are, in theory, the most general class of models for forecasting a 
 * d is the number of nonseasonal differences needed for stationarity, and 
 * q is the number of lagged forecast errors in the prediction equation. 
 
-#### This repository demonstrates how to make Time Series Analysis on a single feature, or comparing between multiple features: forecasting and insights
-* ARIMA(1,0,0) = first-order autoregressive model:
+1. ARIMA(1,0,0) = first-order autoregressive model:
 if the series is stationary and autocorrelated, perhaps it can be predicted as a multiple of its own previous value, plus a constant.
-* ARIMA(0,1,0) = random walk:
+2. ARIMA(0,1,0) = random walk:
 If the series Y is not stationary, the simplest possible model for it is a random walk model, which can be considered as a limiting case of an AR(1) model in which the autoregressive coefficient is equal to 1, i.e., a series with infinitely slow mean reversion.
-* ARIMA(1,1,0) = differenced first-order autoregressive model:
+3. ARIMA(1,1,0) = differenced first-order autoregressive model:
 If the errors of a random walk model are autocorrelated, perhaps the problem can be fixed by adding one lag of the dependent variable to the prediction equation--i.e., by regressing the first difference of Y on itself lagged by one period.
-* ARIMA(0,1,1) without constant = simple exponential smoothing:
+4. ARIMA(0,1,1) without constant = simple exponential smoothing:
 Another strategy for correcting autocorrelated errors in a random walk model is suggested by the simple exponential smoothing model. Recall that for some nonstationary time series (e.g., ones that exhibit noisy fluctuations around a slowly-varying mean), the random walk model does not perform as well as a moving average of past values. In other words, rather than taking the most recent observation as the forecast of the next observation, it is better to use an average of the last few observations in order to filter out the noise and more accurately estimate the local mean. The simple exponential smoothing model uses an exponentially weighted moving average of past values to achieve this effect.
 
 ## fbProphet
