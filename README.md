@@ -3,9 +3,10 @@ using ARIMA and fbProphet
 
 ## Time Series Forecast
 Time-series forecast itself is one of the methods to create a model for predicting future values based on current and historical time series data. There are four components of time-series:
-1. <strong>Trend:</strong> an increase or decrease of data; could be linear or nonlinear (logistics growth)
-2. Seasonality: a characteristic of time-series data when it experiences regular and predictable movement after a fixed period of time
-
+1. <strong>Trend:</strong> An increase or decrease of data; could be linear or nonlinear (logistics growth)
+2. <strong>Seasonality:</strong> Characteristic of time-series data when it experiences regular and predictable movement after a fixed period of time
+3. <strong>Cyclic:</strong> Cyclic pattern exists when the data experience rises or falls (regular or periodic fluctuation in data)
+4. <strong>Irregularity:</strong> The residual of time series after the trend-cycle and seasonal component are removed
 
 
 ## ARIMA
