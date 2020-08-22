@@ -1,4 +1,4 @@
-# Data Description:
+# Datasets Description:
 
 1. <strong>shampoo.csv</strong>
 
