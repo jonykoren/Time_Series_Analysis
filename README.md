@@ -27,7 +27,12 @@ If the errors of a random walk model are autocorrelated, perhaps the problem can
 Another strategy for correcting autocorrelated errors in a random walk model is suggested by the simple exponential smoothing model. Recall that for some nonstationary time series (e.g., ones that exhibit noisy fluctuations around a slowly-varying mean), the random walk model does not perform as well as a moving average of past values. In other words, rather than taking the most recent observation as the forecast of the next observation, it is better to use an average of the last few observations in order to filter out the noise and more accurately estimate the local mean. The simple exponential smoothing model uses an exponentially weighted moving average of past values to achieve this effect.
 
 ## fbProphet
-fbProphet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
+fbProphet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well:
+1. Hourly, daily or weekly observation within at least a few months (minimum 1 month), but 1 year of historical data is much preferred
+2. Having strong seasonalities: day of the week and time of the year
+3. Important events or holidays that occur must be noted
+4. A reasonable number of missing or outlier data
+5. Historical trend changes
 
 ## Notebooks
 * [Single Feature Example](https://github.com/jonykoren/Time_Series_Analysis/blob/master/Minimum_Daily_Temperatures.ipynb)
