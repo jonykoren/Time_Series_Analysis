@@ -6,6 +6,6 @@ Sample data that appears in the December Tableau User Group presentation.  Note:
 * [Last updated: 28/11/2017](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls)
 
 
-### TO-DO
+### Data
 Analzye TSA with more datasets:
 * [LINK](https://github.com/jonykoren/Time_Series_Analysis/tree/master/data)
